@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.imgBannerPrincipal{
+    height: 600px;
+    object-fit: cover;
+}
+
+.border{
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px gray;
+}
+
+@media screen and (max-width: 767px){
+    .imgBannerPrincipal{
+        height: 400px;
+    }
+}
