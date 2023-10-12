@@ -17,6 +17,19 @@
     font-size: 50px;
 }
 
+.header--about{
+    height: 20vh;
+    font-family: 'Black Han Sans', sans-serif;
+    color: white;
+    background-color: rgb(0, 132, 255);
+
+}
+.header--title{
+    font-size: 60px;
+}
+
+
+
 @media screen and (max-width: 767px){
     .imgBannerPrincipal{
         height: 400px;
