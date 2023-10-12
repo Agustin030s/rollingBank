@@ -13,6 +13,10 @@
     box-shadow: 5px 5px 12px gray;
 }
 
+.fsIcon{
+    font-size: 50px;
+}
+
 @media screen and (max-width: 767px){
     .imgBannerPrincipal{
         height: 400px;
