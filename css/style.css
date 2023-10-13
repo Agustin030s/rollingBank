@@ -28,6 +28,11 @@
     font-size: 60px;
 }
 
+.tipografiaNav{
+    font-family: 'Black Han Sans';
+    color: black;
+}
+
 
 
 @media screen and (max-width: 767px){
