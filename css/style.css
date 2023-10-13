@@ -28,6 +28,23 @@
     font-size: 60px;
 }
 
+footer  {
+    background: rgba(0, 0, 0, 0.87)
+}
+
+.textoFooter {
+    color: gray;
+}
+
+.tipografiaFooter {
+    font-family: 'Black Han Sans'
+}
+
+.footerUl{
+    list-style: none ;
+    padding: 0;
+}
+
 
 
 @media screen and (max-width: 767px){
