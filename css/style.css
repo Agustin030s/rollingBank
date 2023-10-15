@@ -59,29 +59,25 @@ footer  {
     color: white;
     background-color: rgb(0, 132, 255);
 }
-.security-container {
-    margin-top: 20px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.security-container .content {
+
+ .content {
+    margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
     align-items: center; 
 }
 
-.security-container .content .image {
+ .content .image {
     flex: 1; 
     margin-right: 10px; 
 }
 
-.security-container .content .image img {
+ .content .image img {
     max-width: 100%;
 }
 
-.security-container .content .text {
+.content .text {
     flex: 1; 
     display: flex;
     flex-direction: column;
@@ -90,7 +86,7 @@ footer  {
     font-size: 18px;
 }
 
-.security-container .content .text h5 {
+.content .text h5 {
     font-size: 24px;
     font-weight: bold;
     margin: 0; 
@@ -102,19 +98,19 @@ footer  {
         font-size: 40px;
     }
 
-    .security-container .content {
+    .content {
         width: 100%;
     }
 
-    .security-container .content .text {
+   .content .text {
         font-size: 8px;
     }
 
-    .security-container .content .text h5 {
+   .content .text h5 {
         font-size: 16px;
     }
 
-    .security-container .content .image img {
+    .content .image img {
         height: 200px;
     }
 }
@@ -124,18 +120,18 @@ footer  {
     font-size: 40px;
 }
 
-.security-container .content {
+.content {
     width: 100%;
 }
 
-.security-container .content .text {
+.content .text {
     font-size: 12px;
 }
 
-.security-container .content .text h5 {
+.content .text h5 {
     font-size: 16px;
 }
 
-.security-container .content .image img {
+.content .image img {
     height: 350px;
 }}
