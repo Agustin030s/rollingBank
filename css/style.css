@@ -59,7 +59,7 @@ footer  {
     color: white;
     background-color: rgb(0, 132, 255);
 }
-.container {
+.cont {
     margin-top: 20px; 
     display: flex;
     flex-direction: column;
