@@ -32,6 +32,22 @@
     font-family: 'Black Han Sans';
     color: black;
 }
+footer  {
+    background: rgba(0, 0, 0, 0.87)
+}
+
+.textoFooter {
+    color: gray;
+}
+
+.tipografiaFooter {
+    font-family: 'Black Han Sans'
+}
+
+.footerUl{
+    list-style: none ;
+    padding: 0;
+}
 
 
 
