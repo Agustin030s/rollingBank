@@ -42,7 +42,9 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-white navbar-white py-2">
         <div class="container">
-          <a class="navbar-brand tipografiaNav" href="index.html"><h3>RollinBank</h3></a>
+          <a class="navbar-brand tipografiaNav" href="index.html"
+            ><h3 class="m-0">RollingBank</h3></a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -62,7 +64,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Quienes somos</a>
+                <a class="nav-link" href="./pages/about.html">Quienes somos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Precio</a>
@@ -192,7 +194,7 @@
         </article>
         <article class="container mt-5">
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 text-center">
               <img
                 src="./img/iphone-illustration-sec.png"
                 alt=""
@@ -277,70 +279,57 @@
       </section>
     </main>
     <footer class="py-4">
-        <div class="container textoFooter">
-            <div class="row">
-
-              <div class="col-md-12 col-lg-12 tipografiaFooter">
-                <h3>Rollinbank  <a href="#" class="mx-2 textoFooter"
-                    ><i class="bi bi-facebook fs-6"></i
-                  ></a> <a href="#" class=" textoFooter"
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-12 d-flex mb-2 tipografiaFooter">
+            <h3 class="text-light">Rollingbank</h3>
+            <div class="ms-3 mt-2">
+              <a href="#" class="mx-2 textoFooter"
+                  ><i class="bi bi-facebook fs-6"></i
+                ></a>
+                <a href="#" class="textoFooter"
                   ><i class="bi bi-instagram fs-6"></i
-                ></a> <a href="#" class="mx-2 textoFooter"
-                ><i class="bi bi-twitter-x fs-6"></i
-              ></a></h3>
-              </div>
-              <div class="col-md-3 col-lg-3">
-                <h5>Navegación</h5>
-                <ul class="footerUl">
-                  <a href="#" class="textoFooter">
-                    <li>¿Quiénes somos?</li>
-                  </a>
-                  <a href="#" class="textoFooter">
-                    <li>Precio</li>
-                  </a>
-                  <a href="#" class="textoFooter">
-                    <li>Seguridad</li>
-                  </a>
-                  <a href="#" class="textoFooter">
-                    <li>Ayuda</li>
-                  </a>
-                  <a href="#" class="textoFooter">
-                    <li>Robo o extravio</li>
-                  </a>
-                </ul>
-              </div>
-
-              <div class="col-md-3 col-lg-3">
-                <h5>Legales</h5>
-                <ul class="footerUl">
-                  <a href="#" class="textoFooter">
-                    <li>Regimen de transparencia</li>
-                  </a>
-                  <a href="#" class="textoFooter">
-                    <li>Usuario bancario</li>
-                  </a>
-                  <a href="#" class="textoFooter">
-                    <li>Conducta bancaria</li>
-                  </a>
-                  <a href="#" class="textoFooter">
-                    <li>Estados contables</li>
-                  </a>
-                  <a href="#" class="textoFooter">
-                    <li>Terminos y condiciones</li>
-                  </a>
-                </ul>
-              </div>
-              <div class="col-md-3 col-lg-3">
-                <a href="#"><img src="./img/usuariosfinancieros.png" alt="Imagen del footer de usuarios financieros" class="img-fluid w-75"></a>
-              </div>
-              <div class="col-md-3 col-lg-3">
-                <h5>Unite</h5>
-                <img src="./img/badge-apple-store.svg" alt="" class="mb-2 h-25">
-                <img src="./img/google-play-badge-bb.svg" alt="" class="h-25">
-                
-              </div>
+                ></a>
+                <a href="#" class="mx-2 textoFooter"
+                  ><i class="bi bi-twitter-x fs-6"></i
+                ></a>
             </div>
           </div>
+          <div class="col-md-3 col-lg-3 text-center text-md-start">
+            <h5 class="textoTitulosFooter">Navegación</h5>
+            <ul class="footerUl">
+              <li><a href="#" class="textoFooter">¿Quiénes Somos?</a></li>
+              <li><a href="#" class="textoFooter">Precio</a></li>
+              <li><a href="#" class="textoFooter">Seguridad</a></li>
+              <li><a href="#" class="textoFooter">Ayuda</a></li>
+              <li><a href="#" class="textoFooter">Robo o extravio</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col-lg-3 text-center text-md-start">
+            <h5 class="textoTitulosFooter">Legales</h5>
+            <ul class="footerUl">
+              <li><a href="#" class="textoFooter">Regimen de transparencia</a></li>
+              <li><a href="#" class="textoFooter">Usuario bancario</a></li>
+              <li><a href="#" class="textoFooter">Conducta bancaria</a></li>
+              <li><a href="#" class="textoFooter">Estados contables</a></li>
+              <li><a href="#" class="textoFooter">Terminos y condiciones</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-lg-3 mb-3 text-center text-md-start">
+            <a href="#"><img src="./img/usuariosfinancieros.png" alt="Imagen del footer de usuarios financieros" class="img-fluid w-75"/></a>
+          </div>
+          <div class="col-md-3 col-lg-3 text-center text-lg-start">
+            <h5 class="textoTitulosFooter">Unite</h5>
+            <a href="#">
+              <img src="./img/badge-apple-store.svg" alt="descargar app store" class="mb-2 img-fluid" />
+            </a>
+            <a href="#">
+              <img src="./img/google-play-badge-bb.svg" alt="Descargar google play" class="mb-2 img-fluid"/>
+            </a>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <script
