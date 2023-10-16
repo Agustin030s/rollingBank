@@ -1,74 +1,83 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-main{
-    flex-grow: 1;
+main {
+  flex-grow: 1;
 }
 
-.imgBannerPrincipal{
-    height: 600px;
-    object-fit: cover;
+.imgBannerPrincipal {
+  height: 600px;
+  object-fit: cover;
 }
 
-.border{
-    border-radius: 10px;
-    box-shadow: 5px 5px 12px gray;
+.border {
+  border-radius: 10px;
+  box-shadow: 5px 5px 12px gray;
 }
 
-.fsIcon{
-    font-size: 50px;
+.fsIcon {
+  font-size: 50px;
 }
 
-.header--about{
-    font-family: 'Black Han Sans', sans-serif;
-    color: white;
-    background-color: rgb(0, 132, 255);
-
+.header--about {
+  font-family: "Black Han Sans", sans-serif;
+  color: white;
+  background-color: rgb(0, 132, 255);
 }
 
-.tipografiaNav{
-    font-family: 'Black Han Sans';
-    color: black;
+.tipografiaNav {
+  font-family: "Black Han Sans";
+  color: black;
 }
 
-footer  {
-    background: rgba(0, 0, 0, 0.87)
+footer {
+  background: rgba(0, 0, 0, 0.87);
 }
 
-.textoTitulosFooter{
-    color: gray;
+.textoTitulosFooter {
+  color: gray;
 }
 
 .textoFooter {
-    color: gray;
-    text-decoration: none;
+  color: gray;
+  text-decoration: none;
 }
 
-.textoFooter:hover{
-    color: white;
+.textoFooter:hover {
+  color: white;
 }
 
 .tipografiaFooter {
-    font-family: 'Black Han Sans'
+  font-family: "Black Han Sans";
 }
 
-.footerUl{
-    list-style: none ;
-    padding: 0;
+.footerUl {
+  list-style: none;
+  padding: 0;
 }
 
+@media screen and (max-width: 767px) {
+  .imgBannerPrincipal {
+    height: 400px;
+  }
+}
 
-
-@media screen and (max-width: 767px){
-    .imgBannerPrincipal{
-        height: 400px;
-    }
+#main-404-button {
+  text-align: center;
+}
+/* #main-404-button a {
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+} */
+#main-404-img {
+  text-align: center;
 }
