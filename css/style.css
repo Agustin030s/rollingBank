@@ -186,3 +186,15 @@ h5 {
         margin-bottom: 5px; 
     }
 }
+#main-404-button{
+    text-align: center;
+   
+   }
+   #main-404-button a{
+    font-size: 30px;
+    padding-left:40px ;
+    padding-right: 40px;
+   }
+   #main-404-img{
+       text-align: center;
+   }
