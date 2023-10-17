@@ -64,6 +64,31 @@ footer {
   padding: 0;
 }
 
+.pricesTitle {
+  color: white;
+  text-align: center;
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+#priceIconAccount {
+  color: rgb(0, 132, 255);
+}
+
+#priceIconMaintenance {
+  color: #FFC107;
+}
+
+#priceIconTransfer {
+  color: #DC3545;
+}
+
+#priceIconPayment {
+  color: #28A745;
+}
+
+#priceIconCard {
+  color: #17A2B8;
+}
 @media screen and (max-width: 767px) {
   .imgBannerPrincipal {
     height: 400px;
