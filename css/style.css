@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.imgBannerPrincipal {
+  height: 600px;
+  object-fit: cover;
+}
+
+.borderCard {
+  border-radius: 10px;
+  box-shadow: 5px 5px 12px gray;
+}
+
+.fsIcon {
+  font-size: 50px;
+}
+
+.header--about {
+  font-family: "Black Han Sans", sans-serif;
+  color: white;
+  background-color: rgb(0, 132, 255);
+}
+
+.tipografiaNav {
+  font-family: "Black Han Sans";
+  color: black;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.87);
+}
+
+.textoTitulosFooter {
+  color: gray;
+}
+
+.textoFooter {
+  color: gray;
+  text-decoration: none;
+}
+
+.textoFooter:hover {
+  color: white;
+}
+
+.tipografiaFooter {
+  font-family: "Black Han Sans";
+}
+
+.footerUl {
+  list-style: none;
+  padding: 0;
+}
+
+.pricesTitle {
+  color: white;
+  text-align: center;
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+#priceIconAccount {
+  color: rgb(0, 132, 255);
+}
+
+#priceIconMaintenance {
+  color: #FFC107;
+}
+
+#priceIconTransfer {
+  color: #DC3545;
+}
+
+#priceIconPayment {
+  color: #28A745;
+}
+
+#priceIconCard {
+  color: #17A2B8;
+}
+@media screen and (max-width: 767px) {
+  .imgBannerPrincipal {
+    height: 400px;
+  }
+}
